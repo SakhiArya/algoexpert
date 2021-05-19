@@ -1,3 +1,13 @@
+/.metadata/
+
+*.DS_Store
+*.project
+algoexpert/target/
+algoexpert/.settings
+algoexpert/.project
+algoexpert/.classpath
+
+
 # Compiled class file
 *.class
 
