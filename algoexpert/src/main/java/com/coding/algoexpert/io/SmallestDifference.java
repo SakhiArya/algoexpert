@@ -2,6 +2,13 @@ package com.coding.algoexpert.io;
 
 import java.util.Arrays;
 
+/*1) Sort both the arrays 
+2) put pointers at the beginning of both the array
+3) Evaluate absolute difference of both the numbers
+4) if eqal to zero thats the smallest differnce elemenets of these two array 
+5) else increment the pointer of the array which is smaller 
+6) continue until you get a pair with a difference of zero or either of the array is exhausted.*/
+
 public class SmallestDifference {
 	
 	public static int[] smallestDifference(int[] arrayOne, int[] arrayTwo) {

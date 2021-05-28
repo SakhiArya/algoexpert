@@ -10,9 +10,11 @@ public class ThreeSumNumber {
 	public static List<Integer[]> threeNumberSum(int[] arr, int targetSum){
 		
 		Arrays.sort(arr);
+		
 		List<Integer[]> result = new ArrayList<>();
+		
 		for(int i = 0; i < arr.length; i++) {
-			int current = arr[i], left = 0, right = arr.length-1;
+			int current = arr[i], left = i+1, right = arr.length-1;
 			while(left < right) {
 				long sum = current + arr[left] + arr[right];
 				if(sum == targetSum) {
